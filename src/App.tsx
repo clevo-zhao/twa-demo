@@ -2,6 +2,7 @@ import './App.css'
 import {TonConnectButton} from "@tonconnect/ui-react";
 import {useCounterContract} from "./hook/useCounterContract.ts";
 import {useTonConnect} from "./hook/useTonConnect.ts";
+import "@twa-dev/sdk";
 
 function App() {
     const {connected} = useTonConnect();
